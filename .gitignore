@@ -1,0 +1,14 @@
+# Arduino IDE temporäre Build-Ordner ignorieren
+/build/
+/build-cache/
+安定版/
+
+# Kompilierte Dateien ignorieren
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+
+# Spezifisch für Arduino IDE 2.x
+.arduino/
